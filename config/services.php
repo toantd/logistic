@@ -33,5 +33,24 @@ return [
 		'model'  => 'User',
 		'secret' => '',
 	],
-
+	'facebook' => [
+		'client_id' => '1557179787885019',
+		'client_secret' => '0bbbb3665f43b89e20bfaaf97740144b',
+		'redirect' => 'http://logistic.com',
+	],
+	'google' => [
+		'client_id' => 'your-github-app-id',
+		'client_secret' => 'your-github-app-secret',
+		'redirect' => 'http://your-callback-url',
+	],
+	'twitter' => [
+		'client_id' => 'your-github-app-id',
+		'client_secret' => 'your-github-app-secret',
+		'redirect' => 'http://your-callback-url',
+	],
+	'github' => [
+		'client_id' => 'your-github-app-id',
+		'client_secret' => 'your-github-app-secret',
+		'redirect' => 'http://your-callback-url',
+	],
 ];
