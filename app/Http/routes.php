@@ -24,6 +24,7 @@ Route::get('auth/register', 'Auth\AuthController@showRegistrationForm');
 Route::post('auth/register', 'Auth\AuthController@register');
 Route::get('auth/logout', 'Auth\AuthController@logout');
 
+\Illuminate\Support\Facades\Route::controller('share','User\ShareController');
 
 if (Request::is('admin/*'))
 {

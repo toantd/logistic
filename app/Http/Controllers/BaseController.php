@@ -1,18 +1,17 @@
 <?php namespace App\Http\Controllers;
 
-use Illuminate\Routing\Controller;
+//use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use App\AssignedRoles as IsAdminRoles;
 use View;
 
 class BaseController extends Controller {
 
-    /**
-     * Initializer.
-     *
-     * @access   public
-     * @return \BaseController
-     */
+	/**
+	 * Initializer.
+	 *
+	 * @access   public
+	 */
     public function __construct()
     {
         $this->beforeFilter('csrf', array('on' => 'post'));

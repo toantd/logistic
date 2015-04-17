@@ -28,9 +28,10 @@ class HomeController extends BaseController
 
     /**
      * Inject the models.
-     * 
-     * @param \Post $post            
-     * @param \User $user            
+     *
+     * @param News $news
+     * @param User|\User $user
+     * @internal param \Post $post
      */
     public function __construct(News $news, User $user)
     {

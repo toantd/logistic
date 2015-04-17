@@ -136,11 +136,11 @@
 
 		                    alert(alertText);
 		                });
-					};
+					}
 				});
 
 				$('.close_popup').click(function() {
-					parent.$.colorbox.close()
+					parent.$.colorbox.close();
 					window.parent.location.reload();
 				});
 			});
